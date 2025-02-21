@@ -1,0 +1,2 @@
+# PHP unset() in foreach Loop Bug
+This repository demonstrates an uncommon bug in PHP related to the use of the `unset()` function within a `foreach` loop.  The bug arises from the re-indexing of the array after `unset()` is called. This can lead to unexpected behavior and skipped iterations. The solution provided shows how to avoid this issue.
